@@ -1,0 +1,3 @@
+1. Adjusting the column length according to the liking.
+2. Adding all the different flags that exists for tabulate.
+3. Revalidating the values entered by the user.
