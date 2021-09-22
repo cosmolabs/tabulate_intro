@@ -20,19 +20,19 @@ tabulate-intro script is based on python and uses a pre build python module tabu
 
 #+CAPTION: Running tabulate-intro.
 #+NAME: Screen show running tabulate intro.
-[[file:./screenshots/running_script.png]]
+[[file:./.screenshots/running_script.png]]
 
 #+CAPTION: Displaying the intro.
 #+NAME: Screen shows the tabulated intro.
-[[file:./screenshots/viewing_the_intro.png]]
+[[file:./.screenshots/viewing_the_intro.png]]
 
 #+CAPTION: Saving the intro into a new file.
 #+NAME: Screen shows saving the tabulated intro.
-[[file:./screenshots/saving_intro_to_a_new_file.png]]
+[[file:./.screenshots/saving_intro_to_a_new_file.png]]
 
 #+CAPTION: Saving the intro to an existing file.
 #+NAME: Screen shows saving the tabulated intro.
-[[file:./screenshots/saving_intro_to_an_existing_file.png]]
+[[file:./.screenshots/saving_intro_to_an_existing_file.png]]
 
 * FUTURE ENHANCEMENTS:
 1. Giving an option to the user to reverify all the details entered and modifying the data if required.
