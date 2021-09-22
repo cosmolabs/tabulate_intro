@@ -11,13 +11,30 @@ tabulate-intro script is based on python and uses a pre build python module tabu
 
 1. Run the script the script the way you prefer to run a python script.
 2. Input the answers for the questions asked when prompted.
-3. Provide the full path of the file you wish the intro to be saved to.
-   a. If the provided file path already exists the intro will be prepended in the script.
-   b. If the provided file path doesn't exists a new file will be created with the intro in it.
+3. When you asked to save the intro to a file input N to view the intro.
+3. If you wish to save the intro to a file input Y and provide the full path of the file you wish the intro to be saved to.
+   - If the provided file path already exists the intro will be prepended in the script.
+   - If the provided file path doesn't exists a new file will be created with the intro in it.
 
 * SCREENSHOTS:
 
-* ENHANCEMENTS:
+#+CAPTION: Running tabulate-intro.
+#+NAME: Screen show running tabulate intro.
+[[file:./screenshots/running_script.png]]
+
+#+CAPTION: Displaying the intro.
+#+NAME: Screen shows the tabulated intro.
+[[file:./screenshots/viewing_the_intro.png]]
+
+#+CAPTION: Saving the intro into a new file.
+#+NAME: Screen shows saving the tabulated intro.
+[[file:./screenshots/saving_intro_to_a_new_file.png]]
+
+#+CAPTION: Saving the intro to an existing file.
+#+NAME: Screen shows saving the tabulated intro.
+[[file:./screenshots/saving_intro_to_an_existing_file.png]]
+
+* FUTURE ENHANCEMENTS:
 1. Giving an option to the user to reverify all the details entered and modifying the data if required.
 2. Adjusting the column length to certain characters instead of adding the longer data in one line.
 3. Adding all the flags that are available for tabulate to add different looks to the intro.
