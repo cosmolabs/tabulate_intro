@@ -1,0 +1,23 @@
+#+AUTHOR: GANESH KUMRAMSETTI
+#+DATE: <2021-09-21 mar>
+
+* ABOUT:
+Every time when we write a script, it's a good idea to add an intro which talks what the script is about, what are it's dependencies, by whom and when the script was written and updated etc. Adding intro's in each script manually is a tideous task and prone to errors also one might see fromatting differences between different scripts.
+
+To solve this problem I wrote a python script which creates a file/script with an intro or adds an intro to the existing files/scripts.
+
+* INSRTUCTIONS:
+tabulate-intro script is based on python and uses a pre build python module tabulate. The repo includes the dependency module tabulate.
+
+1. Run the script the script the way you prefer to run a python script.
+2. Input the answers for the questions asked when prompted.
+3. Provide the full path of the file you wish the intro to be saved to.
+   a. If the provided file path already exists the intro will be prepended in the script.
+   b. If the provided file path doesn't exists a new file will be created with the intro in it.
+
+* SCREENSHOTS:
+
+* ENHANCEMENTS:
+1. Giving an option to the user to reverify all the details entered and modifying the data if required.
+2. Adjusting the column length to certain characters instead of adding the longer data in one line.
+3. Adding all the flags that are available for tabulate to add different looks to the intro.
