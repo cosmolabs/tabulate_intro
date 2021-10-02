@@ -9,10 +9,10 @@ To solve this problem I wrote a python script which creates a file/script with a
 * INSRTUCTIONS:
 tabulate-intro script is based on python and uses a pre build python module tabulate. The repo includes the dependency module tabulate.
 
-1. Run the script the script the way you prefer to run a python script.
-2. Input the answers for the questions asked when prompted.
-3. When you asked to save the intro to a file input N to view the intro.
-3. If you wish to save the intro to a file input Y and provide the full path of the file you wish the intro to be saved to.
+1. Run the script the way you prefer to run a python script.
+2. Input the details for the lables when prompted.
+3. When asked to save the intro to a file input N for just viewing the intro.
+4. If you wish to save the intro to a file input Y and provide the full path of the file you wish the intro to be saved to.
    - If the provided file path already exists the intro will be prepended in the script.
    - If the provided file path doesn't exists a new file will be created with the intro in it.
 
