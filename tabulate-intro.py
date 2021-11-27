@@ -91,7 +91,10 @@ def get_intro():
     intro_details = [input(label) for label in intro_labels]
     # * making use of zip function available. zip returns an iterator with tuples in it
     # * type casting the iterator to list 
-    intro_details_ordered = list(zip(intro_labels, intro_details))
+    intro_details_formatted = []
+    for a_detail in intro_details:
+        intro_details_formatted.append(add_line_breaks(a_detail, 80))
+    intro_details_ordered = list(zip(intro_labels, intro_details_formatted))
     script_intro = tabulate_intro_details(intro_details_ordered)
     save_to_file = input("\nDo you want to save the intro to a file? (Y or N): ")
     # Asking user to output into standard output or to a file.
@@ -102,6 +105,17 @@ def get_intro():
         print(script_intro)
     else:
         print("\nSelect Y or N, when asked for. No Intro !!!")
+
+
+def add_line_breaks(line: str, char_length: int):
+    if type(line) is str:
+        a_new_line = ""
+        length_of_line = len(line)
+        line_break_chars = char_length
+        while line_break_chars < length_of_line:
+            line = line[:line_break_chars].strip()  + "-\n-" + line[line_break_chars:].strip()
+            line_break_chars = line_break_chars + char_length
+        return line
 
 # Execute the below code block if this file run as a primary file.
 if __name__ == '__main__':
